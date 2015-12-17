@@ -19,6 +19,16 @@ module.exports =
       id: "internet"
       location: "example#add" # URLs are supported!
     }
+    {
+        title: "Symptoms"
+        id: "Symptoms"
+        location: "example#symptoms"
+      }
+      {
+        title: "Hospitals"
+        id: "Hospitals"
+        location: "example#hospitals"
+      }
   ]
 
   # rootView:
