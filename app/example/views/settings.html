@@ -1,97 +1,21 @@
-<div class="padding" ng-controller="SettingsController">
+<div class="padding">
 
   <super-navbar>
     <super-navbar-title>
-      My Preferences
+      My Settings
     </super-navbar-title>
   </super-navbar>
 
-  <div class="padding">
-    <h2>Food I eat daily</h1>
+  <div class="row">
+    <div class="col">Edit</div>
   </div>
-
-  <div class="padding">
-    <h3>Diet Type</h1>
-  </div>
-  
-  <div>
-
-    <ul class="list">
-
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox" ng-model="veg" value="veg">
-         </label>
-         Vegetarian
-      </li>
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox" ng-model="nonveg" value="non-veg">
-         </label>
-         Non-vegetarian
-      </li>
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox" ng-model="seafood" value="seafood">
-         </label>
-         Sea Food
-      </li>
-    </ul>
-    
-  </div>
-
-  <div class="padding">
-    <h3>Cuisine preferences</h1>
-  </div>
-
-  <div>
-
-    <ul class="list">
-
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox">
-         </label>
-         Home cooked
-      </li>
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox">
-         </label>
-         Andhra
-      </li>
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox">
-         </label>
-         Chinese
-      </li>
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox">
-         </label>
-         Pizza
-      </li>
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox">
-         </label>
-         Burger
-      </li>
-      <li class="item item-checkbox">
-         <label class="checkbox">
-           <input type="checkbox">
-         </label>
-         Dosa
-      </li>
-    </ul>
-    
-  </div>
-  
 
   <div class="row">
-    <button class="button button-block button-calm" ng-click="updateSettings()">Update Preferences</button>
-    <!-- <input type="submit" id="submit" value="Submit" /> -->
+    <super-navigate location="example#foodSettings">
+      <button class="button button-block button-calm">Food</button>
+    </super-navigate>
   </div>
+
+  
 
 </div>

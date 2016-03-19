@@ -8,12 +8,12 @@ angular
     // $scope.user1={mood:"happy"};
     // $scope.ufood="yo";
     // $scope.uex="yo";
-
-    $scope.updateSettings = function() {
+    $scope.buttonStyle="button-calm";
 
         
+    
 
-    };
+        
 
     
     
