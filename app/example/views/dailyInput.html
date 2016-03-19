@@ -1,0 +1,61 @@
+<div class="padding" ng-controller="DailyInputController">
+
+  <super-navbar>
+    <super-navbar-title>
+      Daily Input
+    </super-navbar-title>
+  </super-navbar>
+
+
+
+  <div class="row">
+    <div class="col"> Food </div>
+  </div>
+  <div class="row">
+    <div class="col col-33"> 
+        <input type="radio" name="foodOpt" ng-model="ufood" value="carbs">Carbs
+    </div>
+    <div class="col col-33"> 
+        <input type="radio" name="foodOpt" ng-model="ufood" value="protein">Protein
+    </div>
+    <div class="col col-33">
+        <input type="radio" name="foodOpt" ng-model="ufood" value="vegetables">Vegetables
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col"> Mood </div>
+  </div>
+  <div class="row">
+    <div class="col col-33"> 
+        <input type="radio" name="moodOpt" ng-model="user1.mood" value="happy">Happy
+    </div>
+    <div class="col col-33"> 
+        <input type="radio" name="moodOpt" ng-model="user1.mood" value="ok">Ok
+    </div>
+    <div class="col col-33">
+        <input type="radio" name="moodOpt" ng-model="user1.mood" value="sad">Sad
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col"> Excercise </div>
+  </div>
+  <div class="row">
+    <div class="col col-33"> 
+        <input type="radio" name="exOpt" ng-model="uex" value="cardio">Cardio
+    </div>
+    <div class="col col-33"> 
+        <input type="radio" name="exOpt" ng-model="uex" value="weights">Weights
+    </div>
+    <div class="col col-33">
+        <input type="radio" name="exOpt" ng-model="uex" value="sports">Sports
+    </div>
+  </div>
+
+  <div class="row">
+    <button class="button button-block button-calm" ng-click="submit()">Submit</button>
+    <!-- <input type="submit" id="submit" value="Submit" /> -->
+  </div>
+
+</div>

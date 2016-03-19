@@ -10,9 +10,9 @@ module.exports =
       location: "example#index" # Supersonic module#view type navigation
     }
     {
-      title: "Compare"
+      title: "Preferences"
       id: "settings"
-      location: "example#compare"
+      location: "example#settings"
     }
     {
       title: "Add"
@@ -20,15 +20,20 @@ module.exports =
       location: "example#add" # URLs are supported!
     }
     {
-        title: "Symptoms"
-        id: "Symptoms"
-        location: "example#symptoms"
-      }
-      {
-        title: "Hospitals"
-        id: "Hospitals"
-        location: "example#hospitals"
-      }
+      title: "Symptoms"
+      id: "Symptoms"
+      location: "example#symptoms"
+    }
+    {
+      title: "Hospitals"
+      id: "Hospitals"
+      location: "example#hospitals"
+    }
+    {
+      title: "Monitor"
+      id: "Monitor"
+      location: "example#monitorHealth"
+    }
   ]
 
   # rootView:

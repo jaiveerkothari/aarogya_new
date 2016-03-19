@@ -1,7 +1,8 @@
 angular
   .module('example')
   .controller('IndexController', function($scope, supersonic) {
-    Parse.initialize("YdciSvjYPxd4lqlcyHqcbAmyZpCkECZjG6LFiqvk", "KavEECdKH4FU4qxIikS8zPq6xPbvGAvdFuOUlGG2");
+    //Parse.initialize("9ZMoGrZm9iXcoZVZzrt3yh7AJG9GpzbvrD8JDiCz", "pKhmjvhc6hWm7FmsrNjKEvbEac1446gDvNaCEO3k");
+    Parse.initialize("HxZKObXH6PGYX3yR0KXj1gCDHc5ON3oYWwcJXql9", "s6JNCHywzyV77o081q4qaV0reQTp0T9pKXtjKYV1");
     var searchHistory = Parse.Object.extend("searchHistory");
     //Parse.GeoPoint.current({
 	//	success: function (point) {

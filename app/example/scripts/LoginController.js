@@ -1,14 +1,17 @@
 angular
   .module('example')
   .controller('LoginController', function($scope, supersonic) {
-    Parse.initialize("YdciSvjYPxd4lqlcyHqcbAmyZpCkECZjG6LFiqvk", "KavEECdKH4FU4qxIikS8zPq6xPbvGAvdFuOUlGG2");
+    //Parse.initialize("9ZMoGrZm9iXcoZVZzrt3yh7AJG9GpzbvrD8JDiCz", "pKhmjvhc6hWm7FmsrNjKEvbEac1446gDvNaCEO3k");
 	//Parse.User.logOut();
+	Parse.initialize("HxZKObXH6PGYX3yR0KXj1gCDHc5ON3oYWwcJXql9", "s6JNCHywzyV77o081q4qaV0reQTp0T9pKXtjKYV1");
 
 	$scope.refresh = function(){
 		location.reload();
 	}
 
 	$scope.confirmSignUp = function(){
+			supersonic.logger.log("entered confirmSignUp");
+			
 			var user = new Parse.User();
 			user.set("username", $scope.newUser.username);
 			user.set("password", $scope.newUser.password);
@@ -80,6 +83,7 @@ angular
 	};
 
 	$scope.signup = function (){
+		supersonic.logger.log("entered signup");
 		var view = new supersonic.ui.View("example#signup");
 		supersonic.ui.layers.push(view);
 	

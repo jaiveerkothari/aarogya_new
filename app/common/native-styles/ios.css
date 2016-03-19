@@ -43,5 +43,15 @@ tab-bar-item#index {
 }
 
 tab-bar-item#internet {
-  background-image: url(icons/search.svg);
+  background-image: url(icons/plus-round.svg);
+}
+
+tab-bar-item#Symptoms {
+  background-image: url(icons/heart-broken.svg);
+}
+tab-bar-item#Hospitals {
+  background-image: url(icons/medkit.svg);
+}
+tab-bar-item#Monitor {
+  background-image: url(icons/calendar.svg);
 }
